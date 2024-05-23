@@ -6,23 +6,37 @@
     <title>Szállásoldal</title>
     <link rel="stylesheet" href="style.css">
 </head>
+<style>
+    ul {
+      list-style-type: none;
+      margin: 0;
+      padding: 0;
+      overflow: hidden;
+      background-color: #333;
+    }
+    
+    li {
+      float: left;
+    }
+    
+    li a {
+      display: block;
+      color: white;
+      text-align: center;
+      padding: 14px 16px;
+      text-decoration: none;
+    }
+    
+    li a:hover {
+      background-color: #111;
+    }
+    </style>
 <body>
-    <h4>Új szállás felvitele</h4>
-    <label>Név:</label>
-    <input type="text" id="name">
-    <br/>
-    <label>Glutén mentes:</label>
-    <input type="number" id="isGlutenFree" min="0" max="1" value="0" hidden>
-    <button id="yesgluten">Igen</button>
-    <button id="nogluten" style="background-color: red;">Nem</button>
-    <br/>
-    <label>Kép link:</label>
-    <input type="text" id="kepURL">
-    <br/>
-    <button id="buttonsend">Hozzáadás</button>
-    <br/>
-    <h1>Pizzák</h1>
-    <div id="container"></div>
-    <script src="script.js"></script>
+    <ul>
+        <li><a class="active" href="#home">Főoldal</a></li>
+        <li><a href="#news">Szállások</a></li>
+        <li><a href="hoteladd.html">Új szállás</a></li>
+    </ul>
+    <h1>Üdözlet!</h1>
 </body>
 </html>
