@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Új szállás</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <ul class="grungy-nav">
+        <li><a href="index.html">Főoldal</a></li>
+        <li><a href="accomodations.html">Szállások</a></li>
+        <li><a class="active" href="hoteladd.html">Új szállás</a></li>
+    </ul>
+    <h1>Új szállás felvitele</h1>
+    <label>Név:</label>
+    <input type="text" class="cool-input" id="name">
+    <br/>
+    <label>Gazda:</label>
+    <input type="text" class="cool-input" id="hostname">
+    <br/>
+    <label>Hely:</label>
+    <input type="text" class="cool-input" id="location">
+    <br/>
+    <label>Ár:</label>
+    <input type="number" class="cool-input" id="price" min="0">
+    <br/>
+    <label>Minimum éjszaka:</label>
+    <input type="number" class="cool-input" id="minimum_nights" min="1">
+    <br/>
+    <button id="buttonsend" class="grungy-button">Hozzáadás</button>
+    <script src="scriptpost.js"></script>
+</body>
+</html>

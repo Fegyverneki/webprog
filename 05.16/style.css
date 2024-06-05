@@ -1,0 +1,192 @@
+.grungy-nav {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    gap: 20px;
+    justify-content: center;
+    align-items: center;
+}
+
+.grungy-nav li {
+    position: relative;
+}
+
+.grungy-nav a {
+    display: block;
+    padding: 15px 30px;
+    font-size: 20px;
+    color: #fff;
+    background: #66a143;
+    border: 2px solid #000;
+    font-family: 'ForestFraud', serif;
+    border-radius: 5px;
+    box-shadow: inset 0 0 10px rgba(0, 0, 0, 0.7), 0 0 20px rgba(0, 0, 0, 0.7);
+    text-transform: uppercase;
+    text-decoration: none;
+    cursor: pointer;
+    outline: none;
+    overflow: hidden;
+    transition: background 0.3s, box-shadow 0.3s, transform 0.3s;
+}
+
+.grungy-nav a::before,
+.grungy-nav a::after {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: url('https://www.transparenttextures.com/patterns/asfalt-dark.png');
+    opacity: 0.2;
+    transition: opacity 0.3s;
+}
+
+.grungy-nav a::after {
+    background: url('https://www.transparenttextures.com/patterns/dark-leather.png');
+    mix-blend-mode: multiply;
+}
+
+.grungy-nav a:hover {
+    background: #089b20;
+    box-shadow: inset 0 0 20px rgba(0, 0, 0, 0.8), 0 0 25px rgba(0, 0, 0, 0.8);
+    transform: scale(1.05);
+}
+
+.grungy-nav a:active {
+    background: #ee2323;
+    box-shadow: inset 0 0 30px rgba(0, 0, 0, 0.9), 0 0 30px rgba(0, 0, 0, 0.9);
+    transform: scale(0.95);
+}
+
+h1 {
+    color: rgb(0, 0, 0);
+    font-family: 'ForestFraud', sans-serif;
+}
+
+h2{
+    color: rgb(0, 0, 0);
+    font-family: 'ForestFraud', sans-serif;
+}
+
+label{
+    font-family: 'ForestFraud', serif;
+    font-size:xx-large;
+    color: rgb(0, 0, 0);
+}
+
+body{
+    background-image: url("background camo.png");
+}
+
+@font-face {
+    font-family: 'ForestFraud';
+    src: url('ForestFraud-Regular.otf') format('opentype');
+}
+
+.grungy-button {
+    font-family: 'ForestFraud', serif;
+    position: relative;
+    padding: 15px 30px;
+    font-size: 20px;
+    color: #ffffff;
+    background: #66a143;
+    border: 2px solid #000;
+    border-radius: 5px;
+    box-shadow: inset 0 0 10px rgba(0, 0, 0, 0.7), 0 0 20px rgba(0, 0, 0, 0.7);
+    text-transform: uppercase;
+    cursor: pointer;
+    outline: none;
+    overflow: hidden;
+    transition: background 0.3s, box-shadow 0.3s, transform 0.3s;
+}
+
+.grungy-button::before,
+.grungy-button::after {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: url('https://www.transparenttextures.com/patterns/asfalt-dark.png');
+    opacity: 0.2;
+    transition: opacity 0.3s;
+}
+
+.grungy-button::after {
+    background: url('https://www.transparenttextures.com/patterns/dark-leather.png');
+    mix-blend-mode: multiply;
+}
+
+.grungy-button:hover {
+    background: #089b20;
+    box-shadow: inset 0 0 20px rgba(0, 0, 0, 0.8), 0 0 25px rgba(0, 0, 0, 0.8);
+    transform: scale(1.05);
+}
+
+.grungy-button:active {
+    background: #ee2323;
+    box-shadow: inset 0 0 30px rgba(0, 0, 0, 0.9), 0 0 30px rgba(0, 0, 0, 0.9);
+    transform: scale(0.95);
+}
+
+.cool-input {
+    font-family: 'ForestFraud', serif;
+    position: relative;
+    padding: 15px 30px;
+    font-size: 20px;
+    color: #ffffff;
+    background: #66a143;
+    border: 2px solid #000;
+    border-radius: 5px;
+    box-shadow: inset 0 0 10px rgba(0, 0, 0, 0.7), 0 0 20px rgba(0, 0, 0, 0.7);
+    text-transform: uppercase;
+    cursor: pointer;
+    outline: none;
+    overflow: hidden;
+    transition: background 0.3s, box-shadow 0.3s, transform 0.3s;
+}
+
+.cool-input:focus {
+    background: #089b20;
+    box-shadow: inset 0 0 20px rgba(0, 0, 0, 0.8), 0 0 25px rgba(0, 0, 0, 0.8);
+    transform: scale(1.05);
+}
+
+.hotel-box {
+    border: 2px solid #184604;
+    border-radius: 10px;
+    padding: 20px;
+    margin: 10px auto;
+    background-color: #66a143;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    width: 80%; /* Adjust the width as needed */
+    max-width: 600px; /* Optional: set a maximum width */
+}
+.hotel-box h1, .hotel-box h2 {
+    margin: 5px 0;
+}
+
+.startpageimage{
+    text-align: center;
+    position: relative;
+    padding: 15px 30px;
+    font-size: 20px;
+    color: #ffffff;
+    background: #66a143;
+    border: 2px solid #000;
+    border-radius: 5px;
+    box-shadow: inset 0 0 10px rgba(0, 0, 0, 0.7), 0 0 20px rgba(0, 0, 0, 0.7);
+    outline: none;
+    overflow: hidden;
+    transition: background 0.3s, box-shadow 0.3s, transform 0.3s;
+}
+
+.startpageimage img{
+    -webkit-user-drag: none;
+    -khtml-user-drag: none;
+    -moz-user-drag: none;
+    -o-user-drag: none;
+}
